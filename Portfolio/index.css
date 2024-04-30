@@ -1,0 +1,312 @@
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(0, 0, 33);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(153, 153, 226);
+  font-size: 1.04rem;
+  cursor: pointer;
+}
+
+main hr {
+  border: 0;
+  background: #120f4b;
+  height: 1.2px;
+  margin: 60px 84px;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 0;
+  align-items: center;
+}
+.firstsection > div {
+  width: 36%;
+}
+
+.leftsection {
+  font-size: 3rem;
+  margin: 70px 0;
+}
+
+.leftsection .buttons {
+  padding: 50px 0;
+}
+
+.leftsection .btn {
+  padding: 12px;
+  background: rgb(0, 0, 33);
+  border: 2px solid white;
+  border-radius: 6px;
+  color: white;
+  font-size: 20px;
+}
+
+.buttons .btn a {
+  color: rgb(153, 153, 226);
+  text-decoration: none;
+}
+
+.rightsection img {
+  width: 80%;
+  margin: 50px 0;
+}
+
+.purple {
+  color: rgb(117, 92, 141);
+}
+
+.text-gray {
+  color: gray;
+}
+
+#element {
+  color: rgb(117, 92, 141);
+}
+.secsection {
+  max-width: 80vw;
+  margin: auto;
+  height: 60vh;
+}
+
+.projects {
+  max-width: 80vw;
+  margin: auto;
+  height: 76vh;
+}
+
+.secsection h1 {
+  font-size: 1.9rem;
+}
+
+.secsection .box {
+  background: white;
+  width: 70vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+.secsection .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 120px;
+}
+
+.image-top {
+  width: 23px;
+  position: relative;
+  top: -32px;
+  left: -9px;
+}
+
+.vertical-text {
+  position: relative;
+  top: 75px;
+  width: 150px;
+  font-size: 14px;
+}
+
+.vertical-desc {
+  position: relative;
+  top: 86px;
+  color: gray;
+  width: 150px;
+  font-size: 9px;
+}
+
+.rights .footer-rights {
+  text-align: center;
+  color: gray;
+  padding-top: 80px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  border: 2px solid black;
+}
+
+.column {
+  /* height: fit-content; */
+  background-color: rgb(0, 0, 33);
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.column .card-img-top {
+  width: 75%;
+}
+
+/* #pro {
+  max-width: 80vw;
+  margin: auto;
+  height: 100%;
+} */
+
+hr {
+  border: 0;
+  background: #120f4b;
+  height: 1.2px;
+  margin: 60px 84px;
+}
+
+#Section-4 {
+  background-image: rgb(0, 0, 33);
+  border: 2px solid #fff;
+  max-width: 80vw;
+  margin: auto;
+  height: 70vh;
+  border-radius: 13px;
+}
+
+#form {
+  height: auto;
+  width: auto;
+}
+#contact {
+  margin: auto;
+  color: #fff;
+  border-radius: 50px;
+}
+
+#input {
+  height: 35px;
+  line-height: 10px;
+  width: auto;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 15px;
+}
+textarea {
+  height: 100px;
+  width: 300px;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: 18px;
+  margin-top: 20px;
+}
+#send {
+  font-size: 25px;
+  margin: 40px;
+  padding: 0px 25px 0px 25px;
+  border-radius: 20px;
+  background-color: rgb(2, 2, 68);
+  color: #fff;
+  cursor: pointer;
+  float: right;
+}
+
+.footer {
+  height: 1.5vh;
+  background-color: rgb(0, 0, 33);
+}
+
+.footer footer {
+  background-color: rgb(0, 0, 33);
+  padding: 20px;
+  text-align: center;
+  margin-top: 154px;
+  margin-left: 1162px;
+}
+
+.social-icon {
+  display: inline-block;
+  margin: 0 4px;
+}
+
+.social-icon img {
+  width: 30px;
+  border-radius: 14px;
+}
+
+.footer h1 {
+  padding-left: 147px;
+}
+
+.return-top {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  background: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 35px;
+  transition: all 3s ease;
+}
+
+.return-top img {
+  width: 30px;
+  border-radius: 20px;
+}
+
+.return-top span {
+  color: rgb(0, 0, 33);
+  margin: 0;
+  position: relative;
+  left: 1px;
+  top: 11px;
+  font-size: 19px;
+  transition: all 0.3s ease;
+}
+
+.return-top:hover {
+  background-color: rgb(24, 12, 12);
+  cursor: pointer;
+}
+
+#skill-section {
+  max-width: 80vw;
+  margin: auto;
+  height: 50vh;
+}
+
+/* .skill-section img{
+   display:inline-flex;
+   flex-direction:column;
+   margin:10px 2px 40px 7px
+} */
+
+#skill-section .skill-container {
+  padding: 20px;
+  display: inline-flex;
+  flex-direction: row;
+  gap: 65px;
+  margin-left: 162px;
+}
+#skill-section h1 {
+  text-decoration: underline;
+  font-weight: 50rem;
+}
+#Section-4 h1 {
+  margin-top: -37px;
+}
